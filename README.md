@@ -228,3 +228,8 @@ ISC License - see LICENSE file for details
 - [Trello API Documentation](https://developer.atlassian.com/cloud/trello/)
 - [Cursor MCP Integration](https://cursor.sh/docs/mcp)
 - [Claude MCP Support](https://docs.anthropic.com/en/docs/model-context-protocol-mcp)
+
+
+## 👨‍💻 Author
+
+Praveen CS

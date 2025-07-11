@@ -12,8 +12,14 @@
 	"files": [
 		"build"
 	],
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"trello",
+		"mcp",
+		"server",
+		"api",
+		"trello-mcp-server"
+	],
+	"author": "Praveen CS",
 	"license": "ISC",
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "^1.4.1",
