@@ -1,5 +1,7 @@
 # Trello MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@praveencs87/trello-mcp)](https://smithery.ai/server/@praveencs87/trello-mcp)
+
 A Model Context Protocol (MCP) server that enables AI assistants, editors, and automation tools to interact with your Trello boards, lists, cards, and more. This server provides a standardized interface for managing Trello workflows through any MCP-compatible client.
 
 ## 🚀 Quick Start
@@ -78,6 +80,14 @@ node build/index.js
 1. In Claude's settings, look for MCP configuration
 2. Add the server path: `/path/to/trello-mcp-server/build/index.js`
 3. Set environment variables for Trello credentials
+
+### Installing via Smithery
+
+To install trello-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@praveencs87/trello-mcp):
+
+```bash
+npx -y @smithery/cli install @praveencs87/trello-mcp --client claude
+```
 
 ### VS Code
 
