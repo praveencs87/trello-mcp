@@ -105,6 +105,45 @@ npx -y @smithery/cli install @praveencs87/trello-mcp --client claude
 2. Configure the extension to point to your Trello MCP server
 3. Use the extension's interface to interact with Trello
 
+### Opencode
+
+Install [Opencode](https://opencode.ai) if you haven't already.
+
+Add the following to your `opencode.json` (or `.opencode/opencode.json`) file:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "trello": {
+      "type": "local",
+      "command": [
+        "node",
+        "/path/to/trello-mcp-server/build/index.js"
+      ],
+      "environment": {
+        "TRELLO_API_KEY": "your_api_key",
+        "TRELLO_API_TOKEN": "your_api_token"
+      }
+    }
+  }
+}
+```
+
+After configuring, verify the server is connected:
+
+```bash
+opencode mcp list
+```
+
+Expected output:
+
+```
+trello connected
+```
+
+You can then ask opencode to interact with Trello directly.ajo
+
 ### Other MCP-Compatible Tools
 
 #### General Configuration
